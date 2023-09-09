@@ -19,7 +19,7 @@ pd.options.display.max_columns = 2
 pd.options.display.max_rows = 100000
 pd.options.display.max_columns = 2
 pd.options.display.max_rows = 100000
-data = pd.read_csv('csv files/audible_uncleaned.csv')
+data = pd.read_csv('audible_uncleaned.csv')
 
 def float_conversion(var):
     a = var.replace(',','')
